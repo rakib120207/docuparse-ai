@@ -1,6 +1,9 @@
-fastapi
-uvicorn[standard]
-python-dotenv
-httpx
-pymupdf
-aiosqlite
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-dotenv==1.0.1
+httpx==0.27.2
+PyMuPDF==1.24.10
+aiosqlite==0.20.0
+python-multipart==0.0.9
+posthog==3.5.0
+sentry-sdk[fastapi]==2.14.0
